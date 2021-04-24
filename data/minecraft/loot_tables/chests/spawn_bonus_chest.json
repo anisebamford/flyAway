@@ -2,11 +2,30 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 19,
+      "rolls": 18,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 64.0,
+                "max": 64.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_carrot",
           "functions": [
             {
               "function": "minecraft:set_count",
